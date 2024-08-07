@@ -10,7 +10,7 @@ from keep_alive import keep_alive
 keep_alive()
 
 # Insert your Telegram bot token here
-bot = telebot.Telebot('7116062607:AAEtYMVZRGIyLQpHT-y7DZSJX2cnvIBkZb0')
+bot = telebot.Telebot('7291497669:AAGAEs4Y0MtPoHwH6fHDP-sxDOKrzXxkEls')
 # Admin user ID
 admin_id = {"5269502580"}
 
@@ -33,8 +33,8 @@ consecutive_attacks = {}
 # Read users and keys from files initially
 def load_data():
     global users, keys
-    users = read_users()
-    keys = read_keys()
+    users = read_users(sandeepowner07)
+    keys = read_keys(SANDEEP@1234)
 
 def read_users():
     try:
