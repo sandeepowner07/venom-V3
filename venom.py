@@ -6,11 +6,11 @@ import asyncio
 
 API_TOKEN = '7291497669:AAGAEs4Y0MtPoHwH6fHDP-sxDOKrzXxkEls'
 ADMIN_ID = '5269502580'
-MAX_RESTARTS = 99
+MAX_RESTARTS = 1
 RESTART_PERIOD = 300  # Seconds
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-bot = Bot(7291497669:AAGAEs4Y0MtPoHwH6fHDP-sxDOKrzXxkEls)
+bot = Bot()
 
 def start_bot():
     """Start the bot script as a subprocess."""
